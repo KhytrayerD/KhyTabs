@@ -1,5 +1,8 @@
 # KhyTabs
 ![Tabs](Tabs.png)
+
+
+
 Organizer Dofus
 🛡️ KhyDofus Tabs - Organizador Visual para Dofus
 La herramienta definitiva para jugadores multicuentas. Gestiona, organiza y cambia entre tus ventanas de Dofus de forma rápida y visual.
