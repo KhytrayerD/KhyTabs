@@ -1,0 +1,27 @@
+{
+    "auto_rescan_missing": false,
+    "compact_dock": false,
+    "key_next": "\u00ba",
+    "key_prev": "pageup",
+    "locked": false,
+    "opacity": 1.0,
+    "orientation": "vertical",
+    "profiles": {},
+    "slots": [
+        "f2",
+        "f3",
+        "f4",
+        "f5",
+        "f6",
+        "f7",
+        "f8",
+        "f9"
+    ],
+    "smart_hide": false,
+    "status_indicators": false,
+    "text_mode": "hover",
+    "ui_scale": "small",
+    "ui_scale_factor": 1.0,
+    "window_x": -7,
+    "window_y": 518
+}

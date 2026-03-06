@@ -1,0 +1,385 @@
+* {
+    font-family: "Segoe UI Variable", "Segoe UI";
+}
+
+QDialog, QWidget {
+    color: rgba(232, 232, 240, 255);
+}
+
+QWidget {
+    background-color: rgba(14, 14, 18, 0);
+}
+
+QFrame {
+    background-color: transparent;
+}
+
+QDialog {
+    background-color: rgba(14, 14, 18, 255);
+}
+
+QMessageBox {
+    background-color: rgba(14, 14, 18, 255);
+}
+
+QScrollArea {
+    background: transparent;
+}
+
+QScrollArea QWidget#qt_scrollarea_viewport {
+    background-color: rgba(14, 14, 18, 255);
+}
+
+QTabWidget {
+    background: transparent;
+}
+
+QLabel {
+    color: rgba(232, 232, 240, 255);
+}
+
+QLabel:disabled {
+    color: rgba(170, 170, 178, 255);
+}
+
+QPushButton {
+    background: rgba(255, 255, 255, 14);
+    color: rgba(232, 232, 240, 255);
+    border: 1px solid rgba(255, 255, 255, 18);
+    border-radius: 12px;
+    padding: 10px 12px;
+    font-weight: 700;
+}
+
+QPushButton:hover {
+    background: rgba(255, 255, 255, 20);
+}
+
+QPushButton:pressed {
+    background: rgba(255, 255, 255, 10);
+}
+
+QPushButton:focus {
+    border: 1px solid rgba(255, 200, 74, 140);
+}
+
+QLineEdit {
+    background: rgba(255, 255, 255, 12);
+    border: 1px solid rgba(255, 255, 255, 16);
+    border-radius: 10px;
+    padding: 8px;
+    color: rgba(232, 232, 240, 255);
+}
+
+QLineEdit:focus {
+    border: 1px solid rgba(255, 200, 74, 140);
+    background: rgba(255, 255, 255, 14);
+}
+
+QCheckBox {
+    spacing: 10px;
+    font-weight: 600;
+}
+
+QCheckBox::indicator {
+    width: 18px;
+    height: 18px;
+    border-radius: 6px;
+    background: rgba(255, 255, 255, 10);
+    border: 1px solid rgba(255, 255, 255, 18);
+}
+
+QCheckBox::indicator:checked {
+    background: rgba(255, 200, 74, 220);
+    border: 1px solid rgba(255, 200, 74, 220);
+}
+
+QTabWidget::pane {
+    border: 1px solid rgba(255, 255, 255, 14);
+    border-radius: 12px;
+    top: -1px;
+    background: rgba(18, 18, 22, 200);
+}
+
+QTabBar {
+    background: transparent;
+}
+
+QTabBar::tab {
+    color: rgba(232, 232, 240, 255);
+}
+
+QDialog#SettingsDialog QFrame#SettingsHeader {
+    background-color: rgba(22, 22, 28, 220);
+    border-radius: 12px;
+}
+
+QDialog#SettingsDialog QLabel#SettingsTitle {
+    color: rgba(255, 200, 74, 255);
+    font-weight: 900;
+    letter-spacing: 0.3px;
+}
+
+QPushButton#LinkIcon {
+    background: rgba(255, 255, 255, 10);
+    color: rgba(232, 232, 240, 235);
+    border: 1px solid rgba(255, 255, 255, 16);
+    border-radius: 10px;
+    font-weight: 900;
+    font-size: 11px;
+    padding: 0px;
+}
+
+QPushButton#LinkIcon:hover {
+    background: rgba(255, 255, 255, 18);
+    border: 1px solid rgba(255, 255, 255, 24);
+}
+
+QPushButton#LinkIcon[kind="youtube"] {
+    color: rgba(255, 120, 120, 245);
+}
+
+QPushButton#LinkIcon[kind="kofi"] {
+    color: rgba(160, 210, 255, 245);
+}
+
+QTabBar::tab {
+    background: rgba(255, 255, 255, 10);
+    border: 1px solid rgba(255, 255, 255, 14);
+    padding: 8px 12px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    margin-right: 6px;
+    font-weight: 700;
+}
+
+QTabBar::tab:selected {
+    background: rgba(255, 255, 255, 18);
+    border: 1px solid rgba(255, 255, 255, 22);
+}
+
+QTabBar::tab:hover {
+    background: rgba(255, 255, 255, 14);
+    border: 1px solid rgba(255, 255, 255, 18);
+}
+
+QListWidget {
+    background: rgba(255, 255, 255, 10);
+    border: 1px solid rgba(255, 255, 255, 14);
+    border-radius: 12px;
+}
+
+QListWidget QWidget {
+    background: transparent;
+}
+
+QListWidget::item {
+    padding: 8px 10px;
+    border-radius: 10px;
+}
+
+QListWidget::item:hover {
+    background: rgba(255, 255, 255, 10);
+}
+
+QListWidget::item:selected {
+    background: rgba(255, 255, 255, 16);
+}
+
+QListWidget#OrganizerList::item {
+    padding: 0px;
+    border-radius: 0px;
+    background: transparent;
+}
+
+QListWidget#OrganizerList::item:hover {
+    background: transparent;
+}
+
+QListWidget#OrganizerList::item:selected {
+    background: transparent;
+}
+
+QFrame#AlmanaxCard {
+    background-color: rgba(18, 18, 22, 220);
+    border: 1px solid rgba(255, 255, 255, 18);
+    border-radius: 14px;
+}
+
+QLabel#AlmanaxTitle {
+    color: rgba(255, 200, 74, 255);
+    font-weight: 900;
+    letter-spacing: 0.6px;
+}
+
+QLabel#AlmanaxIcon {
+    background-color: rgba(255, 255, 255, 10);
+    border: 1px solid rgba(255, 255, 255, 14);
+    border-radius: 12px;
+}
+
+QLabel#AlmanaxOffer {
+    color: rgba(236, 236, 242, 255);
+    font-weight: 800;
+}
+
+QLabel#AlmanaxBonus {
+    color: rgba(205, 205, 214, 255);
+    font-weight: 650;
+}
+
+QWidget#OverlayRoot {
+    background: transparent;
+}
+
+QWidget#Card {
+    background-color: rgba(18, 18, 22, 210);
+    border: 1px solid rgba(255, 255, 255, 22);
+    border-radius: 14px;
+}
+
+QFrame#Header {
+    background-color: rgba(22, 22, 28, 220);
+    border-top-left-radius: 14px;
+    border-top-right-radius: 14px;
+}
+
+QLabel#HeaderTitle {
+    color: rgba(255, 200, 74, 255);
+    font-weight: 700;
+    letter-spacing: 0.4px;
+}
+
+QWidget#CharacterItem {
+    background: transparent;
+    border-radius: 12px;
+}
+
+QWidget#CharacterItem:hover {
+    background-color: rgba(255, 255, 255, 10);
+}
+
+QWidget#CharacterItem[active="true"] {
+    background-color: rgba(120, 120, 255, 64);
+    border-left: 3px solid rgba(170, 170, 255, 230);
+}
+
+QWidget#CharacterItem[active="true"][textMode="always"] {
+    border: 1px solid rgba(170, 170, 255, 190);
+    border-left: 3px solid rgba(190, 190, 255, 235);
+}
+
+QWidget#CharacterItem[active="false"] {
+    background-color: transparent;
+}
+
+QWidget#CharacterItem[missing="true"] {
+    background-color: rgba(255, 120, 120, 10);
+    border: 1px solid rgba(255, 120, 120, 45);
+}
+
+QWidget#OverlayRoot[compactDock="true"] QWidget#Card {
+    border-radius: 16px;
+    background-color: rgba(18, 18, 22, 220);
+    border: 1px solid rgba(255, 255, 255, 18);
+}
+
+QWidget#OverlayRoot[compactDock="true"] QWidget#CharacterItem {
+    border-radius: 14px;
+}
+
+QLabel#CharacterName {
+    color: rgba(236, 236, 241, 255);
+    font-weight: 700;
+}
+
+QLabel#CharacterHotkey {
+    color: rgba(200, 200, 210, 255);
+    font-weight: 600;
+}
+
+QMenu {
+    background-color: rgba(24, 24, 30, 245);
+    color: rgba(232, 232, 240, 255);
+    border: 1px solid rgba(255, 255, 255, 18);
+    border-radius: 10px;
+    padding: 6px;
+}
+
+QMenu::item {
+    padding: 8px 12px;
+    border-radius: 8px;
+}
+
+QMenu::item:selected {
+    background-color: rgba(255, 255, 255, 20);
+}
+
+QMenu::separator {
+    height: 1px;
+    background: rgba(255, 255, 255, 16);
+    margin: 6px 6px;
+}
+
+QFrame#OrganizerHeader {
+    background-color: rgba(22, 22, 28, 220);
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 12);
+}
+
+QLabel#OrganizerTitle {
+    color: rgba(255, 200, 74, 255);
+    font-weight: 900;
+    letter-spacing: 0.3px;
+}
+
+QLabel#OrganizerHint {
+    color: rgba(205, 205, 214, 255);
+    font-weight: 650;
+}
+
+QListWidget#OrganizerList {
+    background: rgba(255, 255, 255, 10);
+    color: rgba(232, 232, 240, 255);
+    border: 1px solid rgba(255, 255, 255, 14);
+    border-radius: 12px;
+}
+
+QFrame#OrganizerRow {
+    background: transparent;
+    border-radius: 12px;
+}
+
+QFrame#OrganizerRow:hover {
+    background: rgba(255, 255, 255, 10);
+}
+
+QFrame#OrganizerRow[dragging="true"] {
+    background: rgba(255, 255, 255, 16);
+    border: 1px solid rgba(255, 255, 255, 18);
+}
+
+QFrame#OrganizerRow[dropTarget="true"] {
+    background: rgba(120, 120, 255, 14);
+    border: 1px solid rgba(140, 140, 255, 110);
+}
+
+QLabel#OrganizerRowText {
+    color: rgba(232, 232, 240, 255);
+    font-weight: 700;
+}
+
+QLineEdit#OrganizerInitiative {
+    background: rgba(255, 255, 255, 16);
+    color: rgba(255, 255, 255, 245);
+    border: 1px solid rgba(255, 255, 255, 18);
+    border-radius: 10px;
+    padding: 8px;
+    font-weight: 900;
+    font-size: 14px;
+}
+
+QLabel#OrganizerHandle {
+    color: rgba(200, 200, 210, 255);
+    font-size: 16px;
+}
