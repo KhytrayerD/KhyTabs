@@ -1,3 +1,8 @@
+https://github.com/KhytrayerD/KhyTabs/releases/tag/v1.0.0
+
+
+
+
 Organizer Dofus 🛡️ KhyDofus Tabs - Organizador Visual para Dofus La herramienta definitiva para jugadores multicuentas. Gestiona, organiza y cambia entre tus ventanas de Dofus de forma rápida y visual.
 
 🚀 ¿Qué es KhyDofus Tabs? KhyDofus Tabs es una aplicación de escritorio ligera diseñada para mejorar la experiencia de juego ("Quality of Life") de los usuarios que juegan con múltiples cuentas en Dofus.
